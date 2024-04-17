@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding:0;
+    height: 100%;
+    color: #fff;
+    font: 11px/normal sans-serif;
+    background-image: url('https://i.pinimg.com/736x/79/0a/97/790a9753eb65f37c4ca031a8be9b99e0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    width: 70px;
+}

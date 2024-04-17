@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ đếm ngược</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Đồng hồ đếm ngược</h1>
+        <div id="timer">00:00</div>
+        <div>
+            <input type="number" id="minutesInput" placeholder="Phút">
+            <input type="number" id="secondsInput" placeholder="Giây">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+    <audio id="alarm" src="bai2.mp3"></audio>
+
+    <script src="bai2.js"></script>
+</body>
+</html>

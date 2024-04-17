@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/564x/2c/d2/42/2cd242aebcb73773808e37246a74a3c6.jpg');
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.personal-info, .education, .experience, .skills, .links {
+    margin-bottom: 30px;
+}
